@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Masters" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://mteducare.compusoftadvisors.net/Masters.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://mteducare.compusoftadvisors.net/Masters.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMasters_CreateOrderSource_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrderSource" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateOrderSource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrderSourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProductCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductCategory" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProductCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateOrderStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrderStatus" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateOrderStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrderStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCountry_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCountry" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCountry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCountryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateState_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateState" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCity_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCity" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateAcademiYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateAcademiYear" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateAcademiYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateAcademiYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateSalesMode_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateSalesMode" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateSalesMode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateSalesModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProductGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductGroup" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProductGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateDivision_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDivision" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateDivision_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDivisionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCourse_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCourse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCourse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCourseCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCourseCategory" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCourseCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCourseCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateBoard_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBoard" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateBoard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBoardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateMedium_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateMedium" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateMedium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateMediumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProductType_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductType" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProductType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBranch" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateContactType_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateContactType" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateContactType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateContactTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateContactSource_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateContactSource" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateContactSource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateContactSourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCustomerType_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCustomerType" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateCustomerType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCustomerTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDevice" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProduct" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrder" />
+  </wsdl:message>
+  <wsdl:message name="IMasters_CreateOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrderResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMasters">
+    <wsdl:operation name="CreateOrderSource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateOrderSource" message="tns:IMasters_CreateOrderSource_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateOrderSourceResponse" message="tns:IMasters_CreateOrderSource_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateProductCategory" message="tns:IMasters_CreateProductCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateProductCategoryResponse" message="tns:IMasters_CreateProductCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrderStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateOrderStatus" message="tns:IMasters_CreateOrderStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateOrderStatusResponse" message="tns:IMasters_CreateOrderStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateCountry" message="tns:IMasters_CreateCountry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateCountryResponse" message="tns:IMasters_CreateCountry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateState">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateState" message="tns:IMasters_CreateState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateStateResponse" message="tns:IMasters_CreateState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateCity" message="tns:IMasters_CreateCity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateCityResponse" message="tns:IMasters_CreateCity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAcademiYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateAcademiYear" message="tns:IMasters_CreateAcademiYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateAcademiYearResponse" message="tns:IMasters_CreateAcademiYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateSalesMode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateSalesMode" message="tns:IMasters_CreateSalesMode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateSalesModeResponse" message="tns:IMasters_CreateSalesMode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateProductGroup" message="tns:IMasters_CreateProductGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateProductGroupResponse" message="tns:IMasters_CreateProductGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDivision">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateDivision" message="tns:IMasters_CreateDivision_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateDivisionResponse" message="tns:IMasters_CreateDivision_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCourse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateCourse" message="tns:IMasters_CreateCourse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateCourseResponse" message="tns:IMasters_CreateCourse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCourseCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateCourseCategory" message="tns:IMasters_CreateCourseCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateCourseCategoryResponse" message="tns:IMasters_CreateCourseCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBoard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateBoard" message="tns:IMasters_CreateBoard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateBoardResponse" message="tns:IMasters_CreateBoard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateMedium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateMedium" message="tns:IMasters_CreateMedium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateMediumResponse" message="tns:IMasters_CreateMedium_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateProductType" message="tns:IMasters_CreateProductType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateProductTypeResponse" message="tns:IMasters_CreateProductType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateBranch" message="tns:IMasters_CreateBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateBranchResponse" message="tns:IMasters_CreateBranch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateContactType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateContactType" message="tns:IMasters_CreateContactType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateContactTypeResponse" message="tns:IMasters_CreateContactType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateContactSource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateContactSource" message="tns:IMasters_CreateContactSource_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateContactSourceResponse" message="tns:IMasters_CreateContactSource_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCustomerType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateCustomerType" message="tns:IMasters_CreateCustomerType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateCustomerTypeResponse" message="tns:IMasters_CreateCustomerType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDevice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateDevice" message="tns:IMasters_CreateDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateDeviceResponse" message="tns:IMasters_CreateDevice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateProduct">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateProduct" message="tns:IMasters_CreateProduct_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateProductResponse" message="tns:IMasters_CreateProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasters/CreateOrder" message="tns:IMasters_CreateOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasters/CreateOrderResponse" message="tns:IMasters_CreateOrder_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMasters" type="tns:IMasters">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateOrderSource">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateOrderSource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductCategory">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateProductCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrderStatus">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateOrderStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateCountry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateState">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCity">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateCity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAcademiYear">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateAcademiYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSalesMode">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateSalesMode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductGroup">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateProductGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDivision">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateDivision" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCourse">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCourseCategory">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateCourseCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBoard">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateBoard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateMedium">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateMedium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateProductType">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateProductType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBranch">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateContactType">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateContactType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateContactSource">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateContactSource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCustomerType">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateCustomerType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDevice">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateProduct">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrder">
+      <soap:operation soapAction="http://tempuri.org/IMasters/CreateOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Masters">
+    <wsdl:port name="BasicHttpBinding_IMasters" binding="tns:BasicHttpBinding_IMasters">
+      <soap:address location="http://mteducare.compusoftadvisors.net/Masters.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

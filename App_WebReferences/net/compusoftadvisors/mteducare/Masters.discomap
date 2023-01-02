@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://mteducare.compusoftadvisors.net/Masters.svc?disco" filename="Masters.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://mteducare.compusoftadvisors.net/Masters.svc?xsd=xsd0" filename="Masters.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://mteducare.compusoftadvisors.net/Masters.svc?xsd=xsd1" filename="Masters0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://mteducare.compusoftadvisors.net/Masters.svc?wsdl" filename="Masters.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

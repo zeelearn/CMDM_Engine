@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CreateOrderSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sourceid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sourcename" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOrderSourceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateOrderSourceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductCategory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProductCategoryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductCategoryName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateProductCategoryResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOrderStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="orderstatuscode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orderstatusname" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOrderStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateOrderStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCountry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CountryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CocreatuntryName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCountryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateCountryResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateState">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StateID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="StateName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CountryID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateStateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateStateResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CityID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CityName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="StateID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CountryID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateCityResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateAcademiYear">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="YearID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YearName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateAcademiYearResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateAcademiYearResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateSalesMode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SalesModeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SalesModeName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateSalesModeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateSalesModeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductGroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProductGroupID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductGroupName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductGroupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateProductGroupResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateDivision">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DivisionID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DivisionName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateDivisionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateDivisionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCourse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CourseID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CourseName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCourseResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateCourseResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCourseCategory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CourseCategoryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CourseCategoryName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCourseCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateCourseCategoryResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBoard">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BoardID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BoardName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBoardResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateBoardResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateMedium">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MediumID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MediumName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateMediumResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateMediumResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProductTypeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductTypeName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateProductTypeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BranchID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBranchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateBranchResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateContactType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ContactTypeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ContactTypeName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateContactTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateContactTypeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateContactSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ContactSourceID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ContactSourceTypeName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateContactSourceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateContactSourceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCustomerType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CustomerTypeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CustomerTypeName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateCustomerTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateCustomerTypeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateDevice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeviceID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DeviceName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ModelNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="VersionNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IMEINumber" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateDeviceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateDeviceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProduct">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DerivedSkU" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductDescription" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductCategoryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductGroupID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CourseCategoryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductTypeID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AcademicYearCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CourseCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BoardCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MediumCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DivisionCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProductResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateProductResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="OrderNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CustomerNote" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InstrumentNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InvoiceNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DeviceModelNumber" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateOrderResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+Subject_Name,Subject_Code,Concept_Name,Concept_Description,Concept_Generic_Name,Status
+Biology,SUB00012,Testing Ex,,Testing Ex,Success
+Biology,SUB00012,Testing Ex,,Testing Ex,Concept Already Existsss
+Chemistry,SUB00010,aaa,,aaa,Concept Already Existsss
+Computer Science,SB16202,Testing Ex,,,Error Mandatoty Fileds Are Blank
+Electronics,SB1517,Testing Ex,,Testing Ex,Subject Does Not Exists
+English,SB16201,,,,Error Mandatoty Fileds Are Blank
+General Knowledge,SB15173,,Testing Ex,,Error Mandatoty Fileds Are Blank
+Maths,SUB00011,,,,Error Mandatoty Fileds Are Blank
+Physics,SUB00009,,,,Error Mandatoty Fileds Are Blank
+Biolog,SUB00012,Testing Ex,,Testing Ex,Concept Already Existsss
+Chemistry,SUB00010,ccc,,aaa,Success
+a,D,D,SS,D,Subject Does Not Exists

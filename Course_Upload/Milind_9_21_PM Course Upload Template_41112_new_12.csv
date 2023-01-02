@@ -1,0 +1,32 @@
+Course_Display_Name,Course,Subject_Display_Name,Subject,Chapter_Display_Name,Chapter,Topic_Display_Name,Topic,SubTopic_Display_Name,SubTopic,Module_Display_Name,Module,LessonPlan_Display_Name,Lesson_Plan_Name
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Quadrilaterals,Quadrilaterals,,,,,Introduction to Quadrilateral,Introduction_to_Quadrilateral,LP01,LP01
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Quadrilaterals,Quadrilaterals,,,,,Construction of a Quadrilateral when four sides and diagonal are given,Construction_of_a_Quadrilateral_when_four_sides_and_diagonal_are_given,LP01,LP01
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Rational Numbers,Rational_Numbers,,,,,Addition of rational numbers-1,Addition_of_rational_numbers-1,LP02,LP02
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Rational Numbers,Rational_Numbers,,,,,Addition of rational numbers-2,Addition_of_rational_numbers-2,LP02,LP02
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Polynomials,Polynomials,,,,,Introduction to Polynomials,01-Introduction_to_Polynomials,LP03,LP03
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Decimal numbers and fractions,Decimal_numbers_and_fractions,,,,,The square root of a decimal number,The_square_root_of_a_decimal_number,LP04,LP04
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Quadratic Equations,Quadratic_Equations,,,,,Introduction to  Quadratic Equations,01-Introduction_to_Quadratic_Equations,LP05,LP05
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Quadratic Equations,Quadratic_Equations,,,,,Sums based on solving linear equations,02-Sums_based_on_solving_linear_equations,LP05,LP05
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Functions,Functions,,,,,Increasing Function And Decreasing Function,1-Increasing_Function_And_Decreasing_Function,LP06,LP06
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Functions,Functions,,,,,Sums Based On Maxima And Minima,2-Sums_Based_On_Maxima_And_Minima,LP06,LP06
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Integers,Integers,,,,,Introduction to integers,Introduction_to_integers,LP07,LP07
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Measuring volume,Measuring_volume,,,,,Sum based on sphere,1-Sum_based_on_sphere,LP08,LP08
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Proportionality and percentages,Proportionality_and_percentages,,,,,Intro to Ratio,01-Intro_to_Ratio,LP09,LP09
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Proportionality and percentages,Proportionality_and_percentages,,,,,Intro to proportion and continued proportion,2-Intro_to_proportion_and_continued_proportion,LP09,LP09
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Pythagoras theorem,Pythagoras_theorem,,,,,Introduction Pythagorean Triplet,01-Introduction_Pythagorean_Triplet,LP10,LP10
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Similarity,Similarity,,,,,Introduction height and base of a triangle,01-Introduction_height_and_base_of_a_triangle,LP11,LP11
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Statistics,Statistics,,,,,Drawing less than type ogive curve and obtain its median,1-Drawing_less_than_type_ogive_curve_and_obtain_its_median,LP12,LP12
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Systems of equations,Systems_of_equations,,,,,Introduction,01-Introduction,LP13,LP13
+Robomate+ Demo_Course,Robomate_Demo_Course,Mathematics,Mathematics,Three-dimensional geometric forms,Three-dimensional_geometric_forms,,,,,Introduction-Cylinder and its formulae,01-Introduction-Cylinder_and_its_formulae,LP14,LP14
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Cell Structure And Functions,Cell_Structure_And_Functions,,,,,Introduction Discovery of the Cell,Introduction_Discovery_of_the_Cell,LP01,LP01
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Cell Structure And Functions,Cell_Structure_And_Functions,,,,,Number Shape and Size of Cells,Number_Shape_and_Size_of_Cells,LP01,LP01
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Electric current and its chemical effects,Electric_current_and_its_chemical_effects,,,,,Introduction,Introduction,LP02,LP02
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Electric current and its chemical effects,Electric_current_and_its_chemical_effects,,,,,Conduction through liquids,Conduction_through_liquids,LP02,LP02
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Effects of Electric Current,Effects_of_Electric_Current,,,,,Maglev,Maglev,LP03,LP03
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Gravitation,Gravitation,,,,,Understanding Escape velocity,Understanding_Escape_velocity,LP04,LP04
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Practicals,Practicals,,,,,To Determine The Focal Length Of A Concave Mirror,01_To_Determine_The_Focal_Length_Of_A_Concave_Mirror,LP05,LP05
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Practicals,Practicals,,,,,To Verify Ohms Law,02_To_Verify_Ohms_Law,LP05,LP05
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Practicals,Practicals,,,,,To Determine The Equivalent Resistance Of Two Resistors When Connected In Parallel,03_To_Determine_The_Equivalent_Resistance_Of_Two_Resistors_When_Connected_In_Parallel,LP05,LP05
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Refraction,Refraction,,,,,Mirage,Mirage,LP06,LP06
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Refraction of Light,Refraction_of_Light,,,,,Refraction of Light,Refraction_of_Light,LP07,LP07
+Robomate+ Demo_Course,Robomate_Demo_Course,Science,Science,Study Of Sound,Study_Of_Sound,,,,,Study of Wave,Study_of_Wave,LP08,LP08
